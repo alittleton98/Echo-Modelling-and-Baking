@@ -1,4 +1,4 @@
 # Table of contents
 
-* [Initial page](README.md)
+* [Echo Modelling and Baking](README.md)
 
