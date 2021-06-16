@@ -143,12 +143,24 @@
     <ClCompile Include="..\Reverb Baker\RoomEdge.cpp" />
     <ClCompile Include="..\Reverb Baker\RoomNode.cpp" />
     <ClCompile Include="..\Reverb Baker\Surface.cpp" />
+    <ClCompile Include="AcousticsGenerator.cpp" />
+    <ClCompile Include="Edge.cpp" />
+    <ClCompile Include="Node.cpp" />
+    <ClCompile Include="Room.cpp" />
+    <ClCompile Include="Surface.cpp" />
+    <ClCompile Include="WorldSpace.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\Reverb Baker\Room.h" />
-    <ClInclude Include="..\Reverb Baker\RoomEdge.h" />
-    <ClInclude Include="..\Reverb Baker\RoomNode.h" />
-    <ClInclude Include="..\Reverb Baker\Surface.h" />
+    <ClInclude Include="AcousticsGenerator.h" />
+    <ClInclude Include="Edge.h" />
+    <ClInclude Include="Node.h" />
+    <ClInclude Include="Room.h" />
+    <ClInclude Include="RoomComponents.h" />
+    <ClInclude Include="Surface.h" />
+    <ClInclude Include="WorldSpace.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="AcosuticModellerClassDiagram.cd" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
