@@ -22,6 +22,8 @@ This project is designed to simulate the computational runtime costs for spatial
 
 Hypothesis: The third option is intended to be the fastest relative to resource consumption
 
+Builds on the concept of Lightmapping. With an already existing lightmap on static objects within a space, less computational resources are required to adjust the look of the object with dynamic lighting. This would apply to audio similarly to how DAWs bake effects into an audio file when mixing it down. Rendering computationally inefficient audio effects, such as late reverb, before hand on static audio sources can free up resources to be used in other audio computations or other disciplines.
+
 ## Branch Descriptions
 
 * main: primary stable branch
