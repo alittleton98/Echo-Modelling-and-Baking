@@ -18,17 +18,11 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Echo.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="Echo.cpp" />
-  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{c24298bf-1b47-4010-b4a9-5f223b9f1652}</ProjectGuid>
-    <RootNamespace>Echo</RootNamespace>
+    <ProjectGuid>{2f1c9907-c41a-4f18-b544-3212f27faa75}</ProjectGuid>
+    <RootNamespace>ReverbBaker</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
