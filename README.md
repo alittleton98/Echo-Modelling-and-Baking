@@ -22,3 +22,11 @@ This project is designed to simulate the computational runtime costs for spatial
 
 Hypothesis: The third option is intended to be the fastest relative to resource consumption
 
+## Branch Descriptions
+
+* main: primary stable branch
+* master: documentation branch
+* dev: development branch to test the combination of the reverb filters and acoustic models and provide data
+* acoustic-modeling: development of the acoustic modeling 
+* reverb-baking: development of the reverb baking and output
+
