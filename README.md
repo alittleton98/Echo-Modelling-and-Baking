@@ -28,6 +28,7 @@ Builds on the concept of Lightmapping. With an already existing lightmap on stat
 
 * main: primary stable branch
 * master: documentation branch
+* project-core: core environment for the project set up
 * dev: development branch to test the combination of the reverb filters and acoustic models and provide data
 * acoustic-modeling: development of the acoustic modeling 
 * reverb-baking: development of the reverb baking and output
