@@ -1,2 +1,32 @@
-# Echo-Modelling-and-Baking
-Open source acoustic modeling tool for 3D game environments and late reverb baking tool
+# Echo Modelling and Baking
+
+### Research Project to determine the validity of "baking" audio filters into spatialized audio within 3D spaces
+
+### Original Developer: Andrew Littleton
+
+### Most Recent Update: 06/16/2021
+
+##  Development Specifications
+
+* C++ 
+* [FFTW Fast Fourier Transform Library](http://www.fftw.org/)
+* [IEM Ambisionics Library](https://plugins.iem.at/)
+
+## Intended Outcome
+
+This project is designed to simulate the computational runtime costs for spatial audio effects filtering. There will be three methods of effects filter generation:
+
+1. Dynamic Runtime: All audio filtering is done dynamically at runtime to reflect immediate changes 
+2. Baked at Build: Late reverb filtering is baked into ALL audio played within the space
+3. Static Object Baking: Late Reverb filtering is baked into only objects marked as "static" \(not moving\) 
+
+Hypothesis: The third option is intended to be the fastest relative to resource consumption
+
+## Branch Descriptions
+
+* main: primary stable branch
+* master: documentation branch
+* dev: development branch to test the combination of the reverb filters and acoustic models and provide data
+* acoustic-modeling: development of the acoustic modeling 
+* reverb-baking: development of the reverb baking and output
+
