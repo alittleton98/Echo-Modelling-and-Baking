@@ -20,7 +20,7 @@ public:
 	};
 
 	WorldSpace();
-	WorldLocation LocationSet(float x, float y, float z);
-	WorldRotation RotationSet(float w, float x, float y, float z);
+	static WorldLocation LocationSet(float x, float y, float z);
+	static WorldRotation RotationSet(float w, float x, float y, float z);
 };
 

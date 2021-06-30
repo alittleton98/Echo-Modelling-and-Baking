@@ -139,10 +139,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\Reverb Baker\Room.cpp" />
-    <ClCompile Include="..\Reverb Baker\RoomEdge.cpp" />
-    <ClCompile Include="..\Reverb Baker\RoomNode.cpp" />
-    <ClCompile Include="..\Reverb Baker\Surface.cpp" />
     <ClCompile Include="AcousticsGenerator.cpp" />
     <ClCompile Include="Edge.cpp" />
     <ClCompile Include="Node.cpp" />

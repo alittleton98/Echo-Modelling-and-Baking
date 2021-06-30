@@ -5,7 +5,7 @@ namespace RoomComponents {
 	{
 	public:
 		float length;
-		Node ConnectedNodes[2];
+		//Node *ConnectedNodes[2]; // [0] is the origin and [1] is the destination
 	};
 }
 

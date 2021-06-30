@@ -1,5 +1,6 @@
 #pragma once
 #include "WorldSpace.h"
+#include "Edge.h"
 #include <vector>
 
 namespace RoomComponents {
@@ -12,7 +13,7 @@ namespace RoomComponents {
 		Node* Child;
 		bool bIsNodeRoot;
 		int NodeID[4];
-		std::vector<Edge> ConnctedEdges;
+		//std::vector<RoomComponents::Edge> ConnectedEdges;
 
 		Node();
 		Node(float x, float y, float z);

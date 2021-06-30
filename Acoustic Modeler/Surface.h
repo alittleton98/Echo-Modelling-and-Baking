@@ -10,10 +10,19 @@ namespace RoomComponents {
 	class Surface
 	{
 	public:
+		float length = 0;
+		float width = 0;
 		float area;
-		Node SurfaceNodes[4];
+		WorldSpace::WorldRotation SurfaceRotation;
+		Node *SurfaceNodes[4];
 		std::string Name;
+
+		Surface(Node NodeArray[]);
+		~Surface();
 	};
+
+	
+
 }
 
 
