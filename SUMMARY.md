@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Acoustic-Modeling-of-Virtual-Reality-Game-Environments](README.md)
+* [ECHO Project](README.md)
 
 ## General Documentation
 

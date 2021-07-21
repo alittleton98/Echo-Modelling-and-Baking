@@ -1,4 +1,4 @@
-# Acoustic-Modeling-of-Virtual-Reality-Game-Environments
+# ECHO Project
 
 ### A Graduate research/software development project based on the modeling of acoustic spaces within virtual reality environments within the Unreal Engine
 
