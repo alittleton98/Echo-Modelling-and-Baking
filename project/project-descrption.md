@@ -37,6 +37,7 @@ The core of this project is the ability for accurate acoustic calculations to be
   * The regions of space within with a sound wave propagates
   * Though not an adjustable parameter, is helpful in determining parts of where a sound is within a space
 
+
 ## Binaural Listening Considerations and 3 Dimensional Audio
 
 Modeling the acoustics of a space relative to a source is only important if a listener will be present to hear it. Binaural encoding is done using a minimum of 4 channel audio mixes representing:
@@ -69,12 +70,10 @@ UE4 is the primary engine the Wwise plugin will be tested and deployed in. The U
 
 Modeling will be done using raycasting from a sound source in a spherical pattern. Accuracy can be adjusted to produce any number of rays. Performance metrics will be taken per ray cast to determine resources required for each accuracy level.  Emission type will also be used to determine the nature of the reflected sound \(point source, line source, impeded variations of the aforementioned\).
 
+
 * Omnidirectional perception: omnidirectional listening where no direction can be discerned
 * X-axis Perception: directional audio heard using a cardioid pattern facing infinity and negative infinity on the x-axis
 * Y-axis Perception: directional audio heard using a cardioid pattern facing infinity and negative infinity on the y-axis
 * Z-Axis Perception: directional audio heard using a cardioid pattern facing infinity and negative infinity on the z-axis
-
-
-
 
 

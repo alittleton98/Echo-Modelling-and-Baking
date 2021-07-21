@@ -1,3 +1,4 @@
+
 # ECHO Project
 
 ### Research/software development project to develop a solution for "baked" acoustic volumes to reduce resource consumption during runtime audio filter generation
@@ -6,9 +7,11 @@
 
 ### Most Recent Update: 07/21/2021
 
+
 ## Development Tools
 
 * Unreal Engine 4.25.3 \(Epic\)
+
 * JUCE 6.07
 * IEM Open Source Ambisonics Plugin Suite
   * requires fftw-3.3.9 for some plugins
@@ -23,6 +26,7 @@
 * dev: primary development branch of the ECHO
 * acoustic-modeler: development of the spatial audio acoustic filters
 * reverb-baker: development of the baking process
+
 
 ## Research Topics
 

@@ -1,3 +1,4 @@
+
 # Spatial Audio Theory
 
 ## Auralization

@@ -4,8 +4,8 @@ description: (Working)
 
 # Unreal Engine and Wwise Details
 
-The Unreal Engine and Wwise audio engine will be where practical application of the AMVRGE plugin will take place. The pipeline for information signal flow will be related to whether or not the plugin is set to gather information or provide signal processing effects.
 
+The Unreal Engine and Wwise audio engine will be where practical application of the AMVRGE plugin will take place. The pipeline for information signal flow will be related to whether or not the plugin is set to gather information or provide signal processing effects.
 ## Wwise Plugin
 
 ### Development Specifications
