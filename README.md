@@ -1,15 +1,14 @@
 # ECHO Project
 
-### A Graduate research/software development project based on the modeling of acoustic spaces within virtual reality environments within the Unreal Engine
+### Research/software development project to develop a solution for "baked" acoustic volumes to reduce resource consumption during runtime audio filter generation
 
 ### Author: Andrew Littleton
 
-### Most Recent Update: 01/28/2021
+### Most Recent Update: 07/21/2021
 
 ## Development Tools
 
 * Unreal Engine 4.25.3 \(Epic\)
-* Wwise 2019.2.6.7381 \(Audiokinetic\)
 * JUCE 6.07
 * IEM Open Source Ambisonics Plugin Suite
   * requires fftw-3.3.9 for some plugins
@@ -21,8 +20,9 @@
 * main: the primary deployable branch of the project
 * master: documentation branch to be merged into main as needed
 * project-core: branch for assembling and modifying the Unreal Engine 4 Project core and its integrations
-* dev: primary development branch of the acoustic modeling and raycasting 
-* audio-design\_programming: audio design and programming branch within Wwise authoring tool for any audio exclusive programming/design
+* dev: primary development branch of the ECHO
+* acoustic-modeler: development of the spatial audio acoustic filters
+* reverb-baker: development of the baking process
 
 ## Research Topics
 
