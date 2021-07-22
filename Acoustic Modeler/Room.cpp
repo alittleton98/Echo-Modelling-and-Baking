@@ -34,6 +34,63 @@ Room::Room()
         }
         else
         {
+            // There must be a better way to do this. Will define a procedural process later
+
+            switch (i)
+            {
+                //Floor
+            case 1:
+                NodeToBeAdded.bIsNodeOrigin = false;
+                NodeToBeAdded.NodeTransform.VectorX = X;
+                NodeToBeAdded.NodeTransform.VectorY = 0;
+                NodeToBeAdded.NodeTransform.VectorZ = 0;
+                NodeToBeAdded.GenerateNodeID(i, NodeToBeAdded.NodeTransform.VectorX, NodeToBeAdded.NodeTransform.VectorY, NodeToBeAdded.NodeTransform.VectorZ);
+                AddNodeToTree(NodeToBeAdded);
+            case 2:
+                NodeToBeAdded.bIsNodeOrigin = false;
+                NodeToBeAdded.NodeTransform.VectorX = X;
+                NodeToBeAdded.NodeTransform.VectorY = Y;
+                NodeToBeAdded.NodeTransform.VectorZ = 0;
+                NodeToBeAdded.GenerateNodeID(i, NodeToBeAdded.NodeTransform.VectorX, NodeToBeAdded.NodeTransform.VectorY, NodeToBeAdded.NodeTransform.VectorZ);
+                AddNodeToTree(NodeToBeAdded);
+            case 3:
+                NodeToBeAdded.bIsNodeOrigin = false;
+                NodeToBeAdded.NodeTransform.VectorX = 0;
+                NodeToBeAdded.NodeTransform.VectorY = Y;
+                NodeToBeAdded.NodeTransform.VectorZ = 0;
+                NodeToBeAdded.GenerateNodeID(i, NodeToBeAdded.NodeTransform.VectorX, NodeToBeAdded.NodeTransform.VectorY, NodeToBeAdded.NodeTransform.VectorZ);
+                AddNodeToTree(NodeToBeAdded);
+                //Ceiling
+            case 4:
+                NodeToBeAdded.bIsNodeOrigin = false;
+                NodeToBeAdded.NodeTransform.VectorX = 0;
+                NodeToBeAdded.NodeTransform.VectorY = Y;
+                NodeToBeAdded.NodeTransform.VectorZ = Z;
+                NodeToBeAdded.GenerateNodeID(i, NodeToBeAdded.NodeTransform.VectorX, NodeToBeAdded.NodeTransform.VectorY, NodeToBeAdded.NodeTransform.VectorZ);
+                AddNodeToTree(NodeToBeAdded);
+            case 5:
+                NodeToBeAdded.bIsNodeOrigin = false;
+                NodeToBeAdded.NodeTransform.VectorX = 0;
+                NodeToBeAdded.NodeTransform.VectorY = 0;
+                NodeToBeAdded.NodeTransform.VectorZ = Z;
+                NodeToBeAdded.GenerateNodeID(i, NodeToBeAdded.NodeTransform.VectorX, NodeToBeAdded.NodeTransform.VectorY, NodeToBeAdded.NodeTransform.VectorZ);
+                AddNodeToTree(NodeToBeAdded);
+            case 6:
+                NodeToBeAdded.bIsNodeOrigin = false;
+                NodeToBeAdded.NodeTransform.VectorX = X;
+                NodeToBeAdded.NodeTransform.VectorY = 0;
+                NodeToBeAdded.NodeTransform.VectorZ = Z;
+                NodeToBeAdded.GenerateNodeID(i, NodeToBeAdded.NodeTransform.VectorX, NodeToBeAdded.NodeTransform.VectorY, NodeToBeAdded.NodeTransform.VectorZ);
+                AddNodeToTree(NodeToBeAdded);
+            case 7:
+                NodeToBeAdded.bIsNodeOrigin = false;
+                NodeToBeAdded.NodeTransform.VectorX = X;
+                NodeToBeAdded.NodeTransform.VectorY = Y;
+                NodeToBeAdded.NodeTransform.VectorZ = Z;
+                NodeToBeAdded.GenerateNodeID(i, NodeToBeAdded.NodeTransform.VectorX, NodeToBeAdded.NodeTransform.VectorY, NodeToBeAdded.NodeTransform.VectorZ);
+                AddNodeToTree(NodeToBeAdded);
+            }
+
             NodeToBeAdded.bIsNodeOrigin = false;
             // Determine equation for iteration over the square
             NodeToBeAdded.GenerateNodeID(i, NodeToBeAdded.NodeTransform.VectorX, NodeToBeAdded.NodeTransform.VectorY, NodeToBeAdded.NodeTransform.VectorZ);
@@ -45,7 +102,7 @@ Room::Room()
 
     for (int i = 0; i < 8; i++)
     {
-        //Generate edges
+        //Generate Edges
     }
 
     for (int i = 0; i < 6; i++)
