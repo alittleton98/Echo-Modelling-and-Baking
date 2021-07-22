@@ -1,10 +1,11 @@
 #include "WorldSpace.h"
 
-WorldSpace::WorldSpace() {
-
+WorldSpace::WorldSpace()
+{
 }
 
-WorldSpace::WorldLocation WorldSpace::LocationSet(float x, float y, float z) {
+WorldSpace::WorldLocation WorldSpace::LocationSet(float x, float y, float z)
+{
 	WorldLocation NewLocation;
 	NewLocation.VectorX = x;
 	NewLocation.VectorY = y;
@@ -13,7 +14,8 @@ WorldSpace::WorldLocation WorldSpace::LocationSet(float x, float y, float z) {
 	return NewLocation;
 }
 
-WorldSpace::WorldRotation WorldSpace::RotationSet(float w, float x, float y, float z) {
+WorldSpace::WorldRotation WorldSpace::RotationSet(float w, float x, float y, float z)
+{
 	WorldRotation NewRotation;
 	//populate rotation
 	NewRotation.W = 1.0f;

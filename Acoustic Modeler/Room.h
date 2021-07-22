@@ -4,27 +4,36 @@
 #include "Edge.h"
 #include "Surface.h"
 #include <vector>
+#include <stdlib.h>
+#include <stdio.h>
 
 using namespace RoomComponents;
 
 class Room
 {
 
-	#define MAX_NODES 8 
+#define MAX_NODES 8
 
 public:
-
 	std::vector<Node> RoomNodes;
 	std::vector<Edge> RoomEdges;
 	std::vector<Surface> RoomSurfaces;
+	FILE RoomDimensionsFile;
 
 	float X;
 	float Y;
 	float Z;
 
+	// Constructors/Destructor
 	Room();
-	Room(float x_dimension, float y_dimension, float z_dimension);
+	Room(FILE RoomDimensionsInput);
 	~Room();
 
+	//Operations
+	bool AddNodeToTree(Node NodeInput);
+	bool RemoveNode_back();
+	bool AddSurfaceToRoom(Surface SurfaceInput);
+	bool RemoveSurface_back();
+	bool AddEdgeToTree(Edge EdgeInput);
+	bool RemoveEdge_back();
 };
-

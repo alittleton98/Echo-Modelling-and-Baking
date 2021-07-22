@@ -1,10 +1,9 @@
 #pragma once
 
-//Class for world space geometric representation 
+//Class for world space geometric representation
 class WorldSpace
 {
 public:
-
 	struct WorldLocation
 	{
 		float VectorX = 0;
@@ -23,4 +22,3 @@ public:
 	static WorldLocation LocationSet(float x, float y, float z);
 	static WorldRotation RotationSet(float w, float x, float y, float z);
 };
-

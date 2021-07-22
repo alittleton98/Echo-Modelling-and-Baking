@@ -3,22 +3,24 @@
 #include "Edge.h"
 #include <vector>
 
-namespace RoomComponents {
-	
+namespace RoomComponents
+{
+
 	class Node
 	{
 	public:
 		WorldSpace::WorldLocation NodeTransform;
-		Node* Parent;
-		Node* Child;
-		bool bIsNodeRoot;
+		Node *Parent;
+		Node *Children[3];
+		bool bIsNodeOrigin;
 		int NodeID[4];
 		//std::vector<RoomComponents::Edge> ConnectedEdges;
 
 		Node();
-		Node(float x, float y, float z);
-
+		Node(float pX, float pY, float pZ, bool pIsNodeOrigin);
+		Node(float pX, float pY, float pZ);
+		Node(WorldSpace::WorldLocation pLocation, bool pIsNodeOrigin);
+		Node(WorldSpace::WorldLocation pLocation);
+		void GenerateNodeID(int pA, int pB, int pC, int pD);
 	};
 }
-
-
