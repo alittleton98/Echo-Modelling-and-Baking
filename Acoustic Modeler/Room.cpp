@@ -24,7 +24,8 @@ Room::Room()
     //Generate room tree counter-clockwise/floor to ceiling
     for (int i = 0; i < 8; i++)
     {
-        Node::Node NodeToBeAdded;
+        
+        Node::Node();
         if (i = 0)
         {
             NodeToBeAdded.bIsNodeOrigin = true;
