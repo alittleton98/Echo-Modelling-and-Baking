@@ -18,7 +18,7 @@ namespace RoomComponents {
 		std::string Name;
 
 		Surface(Node NodeArray[]);
-		~Surface();
+		//~Surface();
 	};
 
 	

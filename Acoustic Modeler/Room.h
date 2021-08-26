@@ -14,6 +14,7 @@ class Room
 
 #define MAX_NODES 8
 
+
 public:
 	std::vector<Node> RoomNodes;
 	std::vector<Edge> RoomEdges;
@@ -26,8 +27,8 @@ public:
 
 	// Constructors/Destructor
 	Room();
-	Room(FILE RoomDimensionsInput);
-	~Room();
+	//Room(FILE RoomDimensionsInput);
+	//~Room();
 
 	//Operations
 	bool AddNodeToTree(Node NodeInput);

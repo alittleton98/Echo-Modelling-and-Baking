@@ -25,7 +25,8 @@ Room::Room()
     for (int i = 0; i < 8; i++)
     {
         
-        Node::Node();
+        Node NodeToBeAdded;
+        NodeToBeAdded = Node::Node();
         if (i = 0)
         {
             NodeToBeAdded.bIsNodeOrigin = true;
@@ -149,19 +150,36 @@ bool Room::RemoveNode_back()
     Room::RoomNodes.pop_back();
     return true;
 }
-bool AddSurfaceToRoom(Surface SurfaceInput)
+bool Room::AddSurfaceToRoom(Surface SurfaceInput)
 {
     //Add surface to structure
+    return true;
 }
-bool RemoveSurface_back()
+bool Room::RemoveSurface_back()
 {
-    //Remove surface from end of struture
+    Room::RoomSurfaces.pop_back();
+    //Remove surface from end of struture   
+    if (Room::RoomSurfaces.empty()) {
+        return false;
+    }
+    else {
+        Room::RoomSurfaces.pop_back();
+        return true;
+    }
 }
-bool AddEdgeToTree(Edge EdgeInput)
+bool Room::AddEdgeToTree(Edge EdgeInput)
 {
     //Add edge to structure
+    return true;
 }
-bool RemoveEdge_back()
+bool Room::RemoveEdge_back()
 {
     //Remove edge from end of structure
+    if (Room::RoomEdges.empty()) {
+        return false;
+    }
+    else {
+        Room::RoomEdges.pop_back();
+        return true;
+    }
 }

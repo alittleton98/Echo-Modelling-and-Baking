@@ -1,91 +1,35 @@
-﻿  AcousticsGenerator.cpp
-  Edge.cpp
-  Node.cpp
-  Room.cpp
-D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Acoustic Modeler\Room.cpp(27,20): error C2146: syntax error: missing ';' before identifier 'NodeToBeAdded'
-D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Acoustic Modeler\Room.cpp(27,34): error C3867: 'RoomComponents::Node::{ctor}': non-standard syntax; use '&' to create a pointer to member
-D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Acoustic Modeler\Room.cpp(27,20): error C2065: 'NodeToBeAdded': undeclared identifier
-D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Acoustic Modeler\Room.cpp(30,13): error C2065: 'NodeToBeAdded': undeclared identifier
-D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Acoustic Modeler\Room.cpp(31,13): error C2065: 'NodeToBeAdded': undeclared identifier
-D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Acoustic Modeler\Room.cpp(32,13): error C2065: 'NodeToBeAdded': undeclared identifier
-D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Acoustic Modeler\Room.cpp(32,45): error C2065: 'NodeToBeAdded': undeclared identifier
-D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Acoustic Modeler\Room.cpp(32,82): error C2065: 'NodeToBeAdded': undeclared identifier
-D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Acoustic Modeler\Room.cpp(32,119): error C2065: 'NodeToBeAdded': undeclared identifier
-D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Acoustic Modeler\Room.cpp(33,27): error C2065: 'NodeToBeAdded': undeclared identifier
-D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Acoustic Modeler\Room.cpp(43,17): error C2065: 'NodeToBeAdded': undeclared identifier
-D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Acoustic Modeler\Room.cpp(44,17): error C2065: 'NodeToBeAdded': undeclared identifier
-D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Acoustic Modeler\Room.cpp(45,17): error C2065: 'NodeToBeAdded': undeclared identifier
-D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Acoustic Modeler\Room.cpp(46,17): error C2065: 'NodeToBeAdded': undeclared identifier
-D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Acoustic Modeler\Room.cpp(47,17): error C2065: 'NodeToBeAdded': undeclared identifier
-D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Acoustic Modeler\Room.cpp(47,49): error C2065: 'NodeToBeAdded': undeclared identifier
-D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Acoustic Modeler\Room.cpp(47,86): error C2065: 'NodeToBeAdded': undeclared identifier
-D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Acoustic Modeler\Room.cpp(47,123): error C2065: 'NodeToBeAdded': undeclared identifier
-D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Acoustic Modeler\Room.cpp(48,31): error C2065: 'NodeToBeAdded': undeclared identifier
-D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Acoustic Modeler\Room.cpp(50,17): error C2065: 'NodeToBeAdded': undeclared identifier
-D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Acoustic Modeler\Room.cpp(51,17): error C2065: 'NodeToBeAdded': undeclared identifier
-D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Acoustic Modeler\Room.cpp(52,17): error C2065: 'NodeToBeAdded': undeclared identifier
-D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Acoustic Modeler\Room.cpp(53,17): error C2065: 'NodeToBeAdded': undeclared identifier
-D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Acoustic Modeler\Room.cpp(54,17): error C2065: 'NodeToBeAdded': undeclared identifier
-D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Acoustic Modeler\Room.cpp(54,49): error C2065: 'NodeToBeAdded': undeclared identifier
-D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Acoustic Modeler\Room.cpp(54,86): error C2065: 'NodeToBeAdded': undeclared identifier
-D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Acoustic Modeler\Room.cpp(54,123): error C2065: 'NodeToBeAdded': undeclared identifier
-D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Acoustic Modeler\Room.cpp(55,31): error C2065: 'NodeToBeAdded': undeclared identifier
-D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Acoustic Modeler\Room.cpp(57,17): error C2065: 'NodeToBeAdded': undeclared identifier
-D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Acoustic Modeler\Room.cpp(58,17): error C2065: 'NodeToBeAdded': undeclared identifier
-D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Acoustic Modeler\Room.cpp(59,17): error C2065: 'NodeToBeAdded': undeclared identifier
-D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Acoustic Modeler\Room.cpp(60,17): error C2065: 'NodeToBeAdded': undeclared identifier
-D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Acoustic Modeler\Room.cpp(61,17): error C2065: 'NodeToBeAdded': undeclared identifier
-D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Acoustic Modeler\Room.cpp(61,49): error C2065: 'NodeToBeAdded': undeclared identifier
-D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Acoustic Modeler\Room.cpp(61,86): error C2065: 'NodeToBeAdded': undeclared identifier
-D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Acoustic Modeler\Room.cpp(61,123): error C2065: 'NodeToBeAdded': undeclared identifier
-D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Acoustic Modeler\Room.cpp(62,31): error C2065: 'NodeToBeAdded': undeclared identifier
-D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Acoustic Modeler\Room.cpp(65,17): error C2065: 'NodeToBeAdded': undeclared identifier
-D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Acoustic Modeler\Room.cpp(66,17): error C2065: 'NodeToBeAdded': undeclared identifier
-D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Acoustic Modeler\Room.cpp(67,17): error C2065: 'NodeToBeAdded': undeclared identifier
-D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Acoustic Modeler\Room.cpp(68,17): error C2065: 'NodeToBeAdded': undeclared identifier
-D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Acoustic Modeler\Room.cpp(69,17): error C2065: 'NodeToBeAdded': undeclared identifier
-D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Acoustic Modeler\Room.cpp(69,49): error C2065: 'NodeToBeAdded': undeclared identifier
-D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Acoustic Modeler\Room.cpp(69,86): error C2065: 'NodeToBeAdded': undeclared identifier
-D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Acoustic Modeler\Room.cpp(69,123): error C2065: 'NodeToBeAdded': undeclared identifier
-D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Acoustic Modeler\Room.cpp(70,31): error C2065: 'NodeToBeAdded': undeclared identifier
-D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Acoustic Modeler\Room.cpp(72,17): error C2065: 'NodeToBeAdded': undeclared identifier
-D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Acoustic Modeler\Room.cpp(73,17): error C2065: 'NodeToBeAdded': undeclared identifier
-D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Acoustic Modeler\Room.cpp(74,17): error C2065: 'NodeToBeAdded': undeclared identifier
-D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Acoustic Modeler\Room.cpp(75,17): error C2065: 'NodeToBeAdded': undeclared identifier
-D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Acoustic Modeler\Room.cpp(76,17): error C2065: 'NodeToBeAdded': undeclared identifier
-D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Acoustic Modeler\Room.cpp(76,49): error C2065: 'NodeToBeAdded': undeclared identifier
-D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Acoustic Modeler\Room.cpp(76,86): error C2065: 'NodeToBeAdded': undeclared identifier
-D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Acoustic Modeler\Room.cpp(76,123): error C2065: 'NodeToBeAdded': undeclared identifier
-D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Acoustic Modeler\Room.cpp(77,31): error C2065: 'NodeToBeAdded': undeclared identifier
-D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Acoustic Modeler\Room.cpp(79,17): error C2065: 'NodeToBeAdded': undeclared identifier
-D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Acoustic Modeler\Room.cpp(80,17): error C2065: 'NodeToBeAdded': undeclared identifier
-D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Acoustic Modeler\Room.cpp(81,17): error C2065: 'NodeToBeAdded': undeclared identifier
-D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Acoustic Modeler\Room.cpp(82,17): error C2065: 'NodeToBeAdded': undeclared identifier
-D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Acoustic Modeler\Room.cpp(83,17): error C2065: 'NodeToBeAdded': undeclared identifier
-D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Acoustic Modeler\Room.cpp(83,49): error C2065: 'NodeToBeAdded': undeclared identifier
-D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Acoustic Modeler\Room.cpp(83,86): error C2065: 'NodeToBeAdded': undeclared identifier
-D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Acoustic Modeler\Room.cpp(83,123): error C2065: 'NodeToBeAdded': undeclared identifier
-D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Acoustic Modeler\Room.cpp(84,31): error C2065: 'NodeToBeAdded': undeclared identifier
-D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Acoustic Modeler\Room.cpp(86,17): error C2065: 'NodeToBeAdded': undeclared identifier
-D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Acoustic Modeler\Room.cpp(87,17): error C2065: 'NodeToBeAdded': undeclared identifier
-D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Acoustic Modeler\Room.cpp(88,17): error C2065: 'NodeToBeAdded': undeclared identifier
-D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Acoustic Modeler\Room.cpp(89,17): error C2065: 'NodeToBeAdded': undeclared identifier
-D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Acoustic Modeler\Room.cpp(90,17): error C2065: 'NodeToBeAdded': undeclared identifier
-D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Acoustic Modeler\Room.cpp(90,49): error C2065: 'NodeToBeAdded': undeclared identifier
-D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Acoustic Modeler\Room.cpp(90,86): error C2065: 'NodeToBeAdded': undeclared identifier
-D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Acoustic Modeler\Room.cpp(90,123): error C2065: 'NodeToBeAdded': undeclared identifier
-D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Acoustic Modeler\Room.cpp(91,31): error C2065: 'NodeToBeAdded': undeclared identifier
-D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Acoustic Modeler\Room.cpp(94,13): error C2065: 'NodeToBeAdded': undeclared identifier
-D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Acoustic Modeler\Room.cpp(96,13): error C2065: 'NodeToBeAdded': undeclared identifier
-D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Acoustic Modeler\Room.cpp(96,45): error C2065: 'NodeToBeAdded': undeclared identifier
-D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Acoustic Modeler\Room.cpp(96,82): error C2065: 'NodeToBeAdded': undeclared identifier
-D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Acoustic Modeler\Room.cpp(96,119): error C2065: 'NodeToBeAdded': undeclared identifier
-D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Acoustic Modeler\Room.cpp(97,27): error C2065: 'NodeToBeAdded': undeclared identifier
-D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Acoustic Modeler\Room.cpp(100,15): error C2065: 'NodeToBeAdded': undeclared identifier
-D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Acoustic Modeler\Room.cpp(120,23): warning C4018: '<': signed/unsigned mismatch
-D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Acoustic Modeler\Room.cpp(135,16): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'double'
-D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Acoustic Modeler\Room.cpp(135,16): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 2 has type 'double'
-D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Acoustic Modeler\Room.cpp(135,16): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 3 has type 'double'
-  Surface.cpp
-  WorldSpace.cpp
-  Generating Code...
+﻿  Room.cpp
+D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Acoustic Modeler\Room.cpp(34,146): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Acoustic Modeler\Room.cpp(34,109): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Acoustic Modeler\Room.cpp(34,72): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Acoustic Modeler\Room.cpp(49,150): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Acoustic Modeler\Room.cpp(49,113): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Acoustic Modeler\Room.cpp(49,76): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Acoustic Modeler\Room.cpp(56,150): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Acoustic Modeler\Room.cpp(56,113): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Acoustic Modeler\Room.cpp(56,76): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Acoustic Modeler\Room.cpp(63,150): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Acoustic Modeler\Room.cpp(63,113): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Acoustic Modeler\Room.cpp(63,76): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Acoustic Modeler\Room.cpp(71,150): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Acoustic Modeler\Room.cpp(71,113): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Acoustic Modeler\Room.cpp(71,76): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Acoustic Modeler\Room.cpp(78,150): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Acoustic Modeler\Room.cpp(78,113): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Acoustic Modeler\Room.cpp(78,76): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Acoustic Modeler\Room.cpp(85,150): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Acoustic Modeler\Room.cpp(85,113): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Acoustic Modeler\Room.cpp(85,76): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Acoustic Modeler\Room.cpp(92,150): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Acoustic Modeler\Room.cpp(92,113): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Acoustic Modeler\Room.cpp(92,76): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Acoustic Modeler\Room.cpp(98,146): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Acoustic Modeler\Room.cpp(98,109): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Acoustic Modeler\Room.cpp(98,72): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Acoustic Modeler\Room.cpp(122,23): warning C4018: '<': signed/unsigned mismatch
+D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Acoustic Modeler\Room.cpp(137,16): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'double'
+D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Acoustic Modeler\Room.cpp(137,16): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 2 has type 'double'
+D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Acoustic Modeler\Room.cpp(137,16): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 3 has type 'double'
+Room.obj : error LNK2019: unresolved external symbol "public: __thiscall RoomComponents::Surface::~Surface(void)" (??1Surface@RoomComponents@@QAE@XZ) referenced in function "public: void * __thiscall RoomComponents::Surface::`scalar deleting destructor'(unsigned int)" (??_GSurface@RoomComponents@@QAEPAXI@Z)
+MSVCRTD.lib(exe_main.obj) : error LNK2019: unresolved external symbol _main referenced in function "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Echo\Debug\Acoustic Modeler.exe : fatal error LNK1120: 2 unresolved externals
