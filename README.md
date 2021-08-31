@@ -26,6 +26,7 @@
 * dev: primary development branch of the ECHO
 * acoustic-modeler: development of the spatial audio acoustic filters
 * reverb-baker: development of the baking process
+* trying-something: branch for applying a "fuck around and find out" approach to anything and everything. is likely broken
 
 
 ## Research Topics
