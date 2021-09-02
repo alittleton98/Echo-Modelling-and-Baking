@@ -1,0 +1,35 @@
+﻿  AcousticsGenerator.cpp
+  Edge.cpp
+  Node.cpp
+  Room.cpp
+D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Acoustic Modeler\Room.cpp(34,146): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Acoustic Modeler\Room.cpp(34,109): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Acoustic Modeler\Room.cpp(34,72): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Acoustic Modeler\Room.cpp(49,150): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Acoustic Modeler\Room.cpp(49,113): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Acoustic Modeler\Room.cpp(49,76): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Acoustic Modeler\Room.cpp(56,150): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Acoustic Modeler\Room.cpp(56,113): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Acoustic Modeler\Room.cpp(56,76): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Acoustic Modeler\Room.cpp(63,150): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Acoustic Modeler\Room.cpp(63,113): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Acoustic Modeler\Room.cpp(63,76): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Acoustic Modeler\Room.cpp(71,150): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Acoustic Modeler\Room.cpp(71,113): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Acoustic Modeler\Room.cpp(71,76): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Acoustic Modeler\Room.cpp(78,150): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Acoustic Modeler\Room.cpp(78,113): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Acoustic Modeler\Room.cpp(78,76): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Acoustic Modeler\Room.cpp(85,150): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Acoustic Modeler\Room.cpp(85,113): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Acoustic Modeler\Room.cpp(85,76): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Acoustic Modeler\Room.cpp(92,150): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Acoustic Modeler\Room.cpp(92,113): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Acoustic Modeler\Room.cpp(92,76): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Acoustic Modeler\Room.cpp(98,146): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Acoustic Modeler\Room.cpp(98,109): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Acoustic Modeler\Room.cpp(98,72): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  Surface.cpp
+  WorldSpace.cpp
+  Generating Code...
+  Acoustic Modeler.vcxproj -> D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Echo\x64\Debug\Acoustic Modeler.exe

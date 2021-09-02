@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\AcousticModeler",
+    "\\src\\Echo",
+    "\\src\\ReverbBaker",
+    "\\src\\Tests",
+    "\\src\\WorldSpaceGenerator"
+  ],
+  "SelectedNode": "\\src\\AcousticModeler\\CMakeLists.txt",
+  "PreviewInSolutionExplorer": false
+}

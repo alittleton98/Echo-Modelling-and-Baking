@@ -27,7 +27,7 @@ Room::Room()
         
         Node NodeToBeAdded;
         NodeToBeAdded = Node::Node();
-        if (i = 0)
+        if (i == 0)
         {
             NodeToBeAdded.bIsNodeOrigin = true;
             NodeToBeAdded.NodeTransform = Origin;
@@ -134,7 +134,7 @@ bool Room::AddNodeToTree(Node NodeInput)
     if (bDuplicatePresent)
     {
         //Return duplicate
-        printf("Duplicate Node at Position: %d , %d, %d with ID %i%i%i%i\n", NodeInput.NodeTransform.VectorX, NodeInput.NodeTransform.VectorY, NodeInput.NodeTransform.VectorZ, NodeInput.NodeID[0], NodeInput.NodeID[1], NodeInput.NodeID[2], NodeInput.NodeID[3]);
+        //printf("Duplicate Node at Position: %d , %d, %d with ID %i%i%i%i\n", NodeInput.NodeTransform.VectorX, NodeInput.NodeTransform.VectorY, NodeInput.NodeTransform.VectorZ, NodeInput.NodeID[0], NodeInput.NodeID[1], NodeInput.NodeID[2], NodeInput.NodeID[3]);
         return false;
     }
 

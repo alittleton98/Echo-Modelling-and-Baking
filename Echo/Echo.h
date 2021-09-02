@@ -1,5 +1,3 @@
 #pragma once
-class Echo
-{
-};
+#include "AcousticsGenerator.h"
 
