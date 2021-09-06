@@ -11,7 +11,9 @@ add_executable (ACOUSTICS_GENERATOR "AcousticsGenerator.cpp")
 set(LIBRARIES_DIR ../Libraries)
 include_directories(${LIBRARIES_DIR}/Acoustics)
 
-
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "../../build/runtime")
+set (CMAKE_ARCHIVE_OUTPUT_DIRECTORY "../../build/lib")
+set (CMAKE_LIBRARY_OUTPUT_DIRECTORY "../../build/lib")
 
 
 

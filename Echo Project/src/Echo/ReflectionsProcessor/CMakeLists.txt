@@ -11,7 +11,9 @@ add_executable (REFLECTIONS_PROCESSOR "ReflectionsProcessor.cpp")
 set(LIBRARIES_DIR ../Libraries)
 include_directories(${LIBRARIES_DIR}/EchoReflections)
 
-
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "../../build/runtime")
+set (CMAKE_ARCHIVE_OUTPUT_DIRECTORY "../../build/lib")
+set (CMAKE_LIBRARY_OUTPUT_DIRECTORY "../../build/lib")
 
 
 
