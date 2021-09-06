@@ -1,0 +1,3 @@
+Three Dimensional Audio Object 
+
+The container for the audio and it's corresponding data.
