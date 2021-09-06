@@ -1,0 +1,1 @@
+Library for generating 3 Dimensional rooms in the world space. Also produces cube of a geometrically accessible 3D space.

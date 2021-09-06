@@ -1,0 +1,4 @@
+Audio Processing Unit
+
+Where the audio signal processing between the application and the system will take place. Primarily FILE IO and codec reading to generate the 
+audio object. Will also handle enconding and decoding between ambisonic orders.

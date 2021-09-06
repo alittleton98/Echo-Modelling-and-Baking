@@ -1,0 +1,1 @@
+Library for processing early reflections. Belongs in the run time audio rack
