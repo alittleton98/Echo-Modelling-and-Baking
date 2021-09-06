@@ -11,7 +11,9 @@ add_executable (WORLDSPACE_GENERATOR "WorldGenerator.cpp")
 set(LIBRARIES_DIR ../Libraries)
 include_directories("${LIBRARIES_DIR}/World Space")
 
-
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "../../build/runtime")
+set (CMAKE_ARCHIVE_OUTPUT_DIRECTORY "../../build/lib")
+set (CMAKE_LIBRARY_OUTPUT_DIRECTORY "../../build/lib")
 
 
 
