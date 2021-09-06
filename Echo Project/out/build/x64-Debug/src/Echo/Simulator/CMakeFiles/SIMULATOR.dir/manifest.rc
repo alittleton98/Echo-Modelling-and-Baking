@@ -1,0 +1,2 @@
+#pragma code_page(65001)
+1 /* CREATEPROCESS_MANIFEST_RESOURCE_ID */ 24 /* RT_MANIFEST */ "D:/Users/Mordecai/Dev/Research/Echo-Modelling-and-Baking/Echo Project/out/build/x64-Debug/src/Echo/Simulator/CMakeFiles/SIMULATOR.dir/embed.manifest"

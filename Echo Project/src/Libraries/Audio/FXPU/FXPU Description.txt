@@ -1,0 +1,6 @@
+Effects Processing Unit
+
+Rack style effects processing. Will use other AUs and Plugins in this library. Will operate using normal signal flow rules (1 way processed in descending order).
+Two different effects racks: 
+- Bake: Bake the effects filters into the audio data that the Cook rack will use at runtime
+- Cook: Cook effects on the fly. Done at run time and not prior to simulation

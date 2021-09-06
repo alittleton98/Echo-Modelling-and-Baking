@@ -1,0 +1,17 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\build",
+    "\\build\\runtime",
+    "\\build\\runtime\\x64-Debug\\.cmake",
+    "\\build\\runtime\\x64-Debug\\.cmake\\api",
+    "\\build\\runtime\\x64-Debug\\.cmake\\api\\v1",
+    "\\build\\runtime\\x64-Debug\\.cmake\\api\\v1\\reply",
+    "\\src",
+    "\\src\\Echo\\ReverbBaker",
+    "\\src\\Echo\\Simulator",
+    "\\src\\Echo\\WorldGenerator"
+  ],
+  "SelectedNode": "\\CMakeLists.txt",
+  "PreviewInSolutionExplorer": false
+}
