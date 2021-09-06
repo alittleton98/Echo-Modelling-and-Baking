@@ -9,7 +9,9 @@ project ("EchoTest" VERSION 1.0
 # Add source to this project's executable.
 add_subdirectory ("src/AcousticModeler")
 add_subdirectory ("src/Echo")
-include_directories(src)
+set(ACOUSTIC_DIRECTORY src/AcousticModeler)
+set(ECHO_DIRECTORY src/Echo)
+
 
 # TODO: Add tests and install targets if needed.
 

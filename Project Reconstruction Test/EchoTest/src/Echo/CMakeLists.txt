@@ -7,9 +7,10 @@ project (EchoExecute)
 
 # Add source to this project's executable.
 add_executable (EchoExecute "Echo.cpp" "Echo.h")
-target_include_directories (EchoExecute PUBLIC
-)
+target_include_directories(EchoExecute PUBLIC ../AcousticModeler)
+target_link_libraries(EchoExecute PRIVATE AcousticModeler)
 
 
 #INCLUDE_DIRECTORIES ()
 # TODO: Add tests and install targets if needed.
+cwysyhchn

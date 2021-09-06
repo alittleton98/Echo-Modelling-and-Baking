@@ -73,6 +73,7 @@ build cmake_object_order_depends_target_AcousticModeler: phony || src\AcousticMo
 
 build src\AcousticModeler\CMakeFiles\AcousticModeler.dir\AcousticModeler.cpp.obj: CXX_COMPILER__AcousticModeler_Debug ..\..\..\src\AcousticModeler\AcousticModeler.cpp || cmake_object_order_depends_target_AcousticModeler
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
+  INCLUDES = -I..\..\..\src\AcousticModeler\..\WorldSpaceGenerator
   OBJECT_DIR = src\AcousticModeler\CMakeFiles\AcousticModeler.dir
   OBJECT_FILE_DIR = src\AcousticModeler\CMakeFiles\AcousticModeler.dir
   TARGET_COMPILE_PDB = src\AcousticModeler\CMakeFiles\AcousticModeler.dir\AcousticModeler.pdb
@@ -131,10 +132,11 @@ build src\AcousticModeler\rebuild_cache: phony src\AcousticModeler\CMakeFiles\re
 #############################################
 # Order-only phony target for EchoExecute
 
-build cmake_object_order_depends_target_EchoExecute: phony || src\Echo\CMakeFiles\EchoExecute.dir
+build cmake_object_order_depends_target_EchoExecute: phony || cmake_object_order_depends_target_AcousticModeler
 
 build src\Echo\CMakeFiles\EchoExecute.dir\Echo.cpp.obj: CXX_COMPILER__EchoExecute_Debug ..\..\..\src\Echo\Echo.cpp || cmake_object_order_depends_target_EchoExecute
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
+  INCLUDES = -I..\..\..\src\Echo\..\AcousticModeler -I..\..\..\src\AcousticModeler\..\WorldSpaceGenerator
   OBJECT_DIR = src\Echo\CMakeFiles\EchoExecute.dir
   OBJECT_FILE_DIR = src\Echo\CMakeFiles\EchoExecute.dir
   TARGET_COMPILE_PDB = src\Echo\CMakeFiles\EchoExecute.dir\
@@ -148,10 +150,10 @@ build src\Echo\CMakeFiles\EchoExecute.dir\Echo.cpp.obj: CXX_COMPILER__EchoExecut
 #############################################
 # Link the executable src\Echo\EchoExecute.exe
 
-build src\Echo\EchoExecute.exe: CXX_EXECUTABLE_LINKER__EchoExecute_Debug src\Echo\CMakeFiles\EchoExecute.dir\Echo.cpp.obj
+build src\Echo\EchoExecute.exe: CXX_EXECUTABLE_LINKER__EchoExecute_Debug src\Echo\CMakeFiles\EchoExecute.dir\Echo.cpp.obj | src\AcousticModeler\AcousticModeler.lib || src\AcousticModeler\AcousticModeler.lib
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
   LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
-  LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
+  LINK_LIBRARIES = src\AcousticModeler\AcousticModeler.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
   OBJECT_DIR = src\Echo\CMakeFiles\EchoExecute.dir
   POST_BUILD = cmd.exe /C "cd /D "D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Project Reconstruction Test\EchoTest\out\build\x64-Debug\src\Echo" && C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file C:/Users/Mordecai/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary "D:/Users/Mordecai/Dev/Research/Echo-Modelling-and-Baking/Project Reconstruction Test/EchoTest/out/build/x64-Debug/src/Echo/EchoExecute.exe" -installedDir C:/Users/Mordecai/vcpkg/installed/x64-windows/debug/bin -OutVariable out"
   PRE_LINK = cd .
