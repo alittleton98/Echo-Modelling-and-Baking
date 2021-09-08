@@ -8,7 +8,7 @@ project ("Simulator")
 # Add source to this project's executable.
 add_executable (SIMULATOR "Simulator.cpp")
 
-set(LIBRARIES_DIR ../Libraries)
+set(LIBRARIES_DIR "../../Libraries")
 #include_directories(${LIBRARIES_DIR}/Acoustics)
 
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "../../build/runtime")

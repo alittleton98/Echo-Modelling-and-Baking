@@ -6,7 +6,7 @@ cmake_minimum_required (VERSION 3.8)
 project ("Echo Project")
 
 # Add source to this project's executable.
-add_executable (ECHO_PROJECT "Echo Project.cpp" "Echo Project.h")
+add_executable (ECHO_PROJECT "Echo Project.cpp" "Echo Project.h" "src/Libraries/Common/Common.h" )
 
 set(LIBRARIES_DIR src/Libraries)
 set(EXECUTABLE_DIR src/Echo)

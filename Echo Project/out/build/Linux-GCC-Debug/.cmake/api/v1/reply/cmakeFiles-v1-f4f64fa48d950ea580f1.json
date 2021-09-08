@@ -1,0 +1,175 @@
+{
+	"inputs" : 
+	[
+		{
+			"path" : "CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "/home/mordecai/.vs/Echo Project/849b7188-be9d-4605-a739-094ff6f7db46/out/build/Linux-GCC-Debug/CMakeFiles/3.19.4268486-MSVC_2/CMakeSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.19/Modules/CMakeSystemSpecificInitialize.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "/home/mordecai/.vs/Echo Project/849b7188-be9d-4605-a739-094ff6f7db46/out/build/Linux-GCC-Debug/CMakeFiles/3.19.4268486-MSVC_2/CMakeCCompiler.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "/home/mordecai/.vs/Echo Project/849b7188-be9d-4605-a739-094ff6f7db46/out/build/Linux-GCC-Debug/CMakeFiles/3.19.4268486-MSVC_2/CMakeCXXCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.19/Modules/CMakeSystemSpecificInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.19/Modules/CMakeGenericSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.19/Modules/CMakeInitializeConfigs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.19/Modules/Platform/Linux.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.19/Modules/Platform/UnixPaths.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.19/Modules/CMakeCInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.19/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.19/Modules/Compiler/GNU-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.19/Modules/Compiler/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.19/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.19/Modules/Platform/Linux-GNU-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.19/Modules/Platform/Linux-GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.19/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.19/Modules/CMakeCXXInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.19/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.19/Modules/Compiler/GNU-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.19/Modules/Compiler/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.19/Modules/Platform/Linux-GNU-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.19/Modules/Platform/Linux-GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.19/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"path" : "src/Libraries/Acoustics/CMakeLists.txt"
+		},
+		{
+			"path" : "src/Libraries/Audio/CMakeLists.txt"
+		},
+		{
+			"path" : "src/Libraries/Common/CMakeLists.txt"
+		},
+		{
+			"path" : "src/Libraries/EchoReflections/CMakeLists.txt"
+		},
+		{
+			"path" : "src/Libraries/EchoReverb/CMakeLists.txt"
+		},
+		{
+			"path" : "src/Libraries/Math/CMakeLists.txt"
+		},
+		{
+			"path" : "src/Libraries/World Space/CMakeLists.txt"
+		},
+		{
+			"path" : "src/Echo/AcousticsGenerator/CMakeLists.txt"
+		},
+		{
+			"path" : "src/Echo/AudioObjectIO/CMakeLists.txt"
+		},
+		{
+			"path" : "src/Echo/ReflectionsProcessor/CMakeLists.txt"
+		},
+		{
+			"path" : "src/Echo/ReverbBaker/CMakeLists.txt"
+		},
+		{
+			"path" : "src/Echo/Simulator/CMakeLists.txt"
+		},
+		{
+			"path" : "src/Echo/WorldGenerator/CMakeLists.txt"
+		}
+	],
+	"kind" : "cmakeFiles",
+	"paths" : 
+	{
+		"build" : "/home/mordecai/.vs/Echo Project/849b7188-be9d-4605-a739-094ff6f7db46/out/build/Linux-GCC-Debug",
+		"source" : "/home/mordecai/.vs/Echo Project/849b7188-be9d-4605-a739-094ff6f7db46/src"
+	},
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}

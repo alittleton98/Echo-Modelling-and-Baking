@@ -413,6 +413,7 @@ build cmake_object_order_depends_target_WORLDSPACE: phony || src\Libraries\World
 
 build src\Libraries\World$ Space\CMakeFiles\WORLDSPACE.dir\World.cpp.obj: CXX_COMPILER__WORLDSPACE_Debug ..\..\..\src\Libraries\World$ Space\World.cpp || cmake_object_order_depends_target_WORLDSPACE
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
+  INCLUDES = -I"..\..\..\src\Libraries\World Space\..\Common"
   OBJECT_DIR = "src\Libraries\World Space\CMakeFiles\WORLDSPACE.dir"
   OBJECT_FILE_DIR = "src\Libraries\World Space\CMakeFiles\WORLDSPACE.dir"
   TARGET_COMPILE_PDB = "src\Libraries\World Space\CMakeFiles\WORLDSPACE.dir\WORLDSPACE.pdb"
@@ -475,7 +476,7 @@ build cmake_object_order_depends_target_ACOUSTICS_GENERATOR: phony || src\Echo\A
 
 build src\Echo\AcousticsGenerator\CMakeFiles\ACOUSTICS_GENERATOR.dir\AcousticsGenerator.cpp.obj: CXX_COMPILER__ACOUSTICS_GENERATOR_Debug ..\..\..\src\Echo\AcousticsGenerator\AcousticsGenerator.cpp || cmake_object_order_depends_target_ACOUSTICS_GENERATOR
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
-  INCLUDES = -I..\..\..\src\Echo\AcousticsGenerator\..\Libraries\Acoustics
+  INCLUDES = -I..\..\..\src\Echo\AcousticsGenerator\..\..\Libraries\Acoustics
   OBJECT_DIR = src\Echo\AcousticsGenerator\CMakeFiles\ACOUSTICS_GENERATOR.dir
   OBJECT_FILE_DIR = src\Echo\AcousticsGenerator\CMakeFiles\ACOUSTICS_GENERATOR.dir
   TARGET_COMPILE_PDB = src\Echo\AcousticsGenerator\CMakeFiles\ACOUSTICS_GENERATOR.dir\
@@ -540,7 +541,7 @@ build cmake_object_order_depends_target_AUDIO_OBJECT_IO: phony || src\Echo\Audio
 
 build src\Echo\AudioObjectIO\CMakeFiles\AUDIO_OBJECT_IO.dir\AudioObjectIO.cpp.obj: CXX_COMPILER__AUDIO_OBJECT_IO_Debug ..\..\..\src\Echo\AudioObjectIO\AudioObjectIO.cpp || cmake_object_order_depends_target_AUDIO_OBJECT_IO
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
-  INCLUDES = -I..\..\..\src\Echo\AudioObjectIO\..\Libraries\Audio
+  INCLUDES = -I..\..\..\src\Echo\AudioObjectIO\..\..\Libraries\Audio
   OBJECT_DIR = src\Echo\AudioObjectIO\CMakeFiles\AUDIO_OBJECT_IO.dir
   OBJECT_FILE_DIR = src\Echo\AudioObjectIO\CMakeFiles\AUDIO_OBJECT_IO.dir
   TARGET_COMPILE_PDB = src\Echo\AudioObjectIO\CMakeFiles\AUDIO_OBJECT_IO.dir\
@@ -605,7 +606,7 @@ build cmake_object_order_depends_target_REFLECTIONS_PROCESSOR: phony || src\Echo
 
 build src\Echo\ReflectionsProcessor\CMakeFiles\REFLECTIONS_PROCESSOR.dir\ReflectionsProcessor.cpp.obj: CXX_COMPILER__REFLECTIONS_PROCESSOR_Debug ..\..\..\src\Echo\ReflectionsProcessor\ReflectionsProcessor.cpp || cmake_object_order_depends_target_REFLECTIONS_PROCESSOR
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
-  INCLUDES = -I..\..\..\src\Echo\ReflectionsProcessor\..\Libraries\EchoReflections
+  INCLUDES = -I..\..\..\src\Echo\ReflectionsProcessor\..\..\Libraries\EchoReflections
   OBJECT_DIR = src\Echo\ReflectionsProcessor\CMakeFiles\REFLECTIONS_PROCESSOR.dir
   OBJECT_FILE_DIR = src\Echo\ReflectionsProcessor\CMakeFiles\REFLECTIONS_PROCESSOR.dir
   TARGET_COMPILE_PDB = src\Echo\ReflectionsProcessor\CMakeFiles\REFLECTIONS_PROCESSOR.dir\
@@ -670,7 +671,7 @@ build cmake_object_order_depends_target_REVERB_BAKER: phony || src\Echo\ReverbBa
 
 build src\Echo\ReverbBaker\CMakeFiles\REVERB_BAKER.dir\ReverbBaker.cpp.obj: CXX_COMPILER__REVERB_BAKER_Debug ..\..\..\src\Echo\ReverbBaker\ReverbBaker.cpp || cmake_object_order_depends_target_REVERB_BAKER
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
-  INCLUDES = -I..\..\..\src\Echo\ReverbBaker\..\Libraries\EchoReverb -I..\..\..\src\Echo\ReverbBaker\..\Libraries\Audio
+  INCLUDES = -I..\..\..\src\Echo\ReverbBaker\..\..\Libraries\EchoReverb -I..\..\..\src\Echo\ReverbBaker\..\..\Libraries\Audio
   OBJECT_DIR = src\Echo\ReverbBaker\CMakeFiles\REVERB_BAKER.dir
   OBJECT_FILE_DIR = src\Echo\ReverbBaker\CMakeFiles\REVERB_BAKER.dir
   TARGET_COMPILE_PDB = src\Echo\ReverbBaker\CMakeFiles\REVERB_BAKER.dir\
@@ -811,7 +812,7 @@ build cmake_object_order_depends_target_WORLDSPACE_GENERATOR: phony || src\Echo\
 
 build src\Echo\WorldGenerator\CMakeFiles\WORLDSPACE_GENERATOR.dir\WorldGenerator.cpp.obj: CXX_COMPILER__WORLDSPACE_GENERATOR_Debug ..\..\..\src\Echo\WorldGenerator\WorldGenerator.cpp || cmake_object_order_depends_target_WORLDSPACE_GENERATOR
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
-  INCLUDES = -I"..\..\..\src\Echo\WorldGenerator\..\Libraries\World Space"
+  INCLUDES = -I"..\..\..\src\Echo\WorldGenerator\..\..\Libraries\World Space"
   OBJECT_DIR = src\Echo\WorldGenerator\CMakeFiles\WORLDSPACE_GENERATOR.dir
   OBJECT_FILE_DIR = src\Echo\WorldGenerator\CMakeFiles\WORLDSPACE_GENERATOR.dir
   TARGET_COMPILE_PDB = src\Echo\WorldGenerator\CMakeFiles\WORLDSPACE_GENERATOR.dir\

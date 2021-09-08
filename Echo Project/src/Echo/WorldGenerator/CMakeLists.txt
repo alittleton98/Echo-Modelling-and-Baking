@@ -8,8 +8,8 @@ project ("World Generator")
 # Add source to this project's executable.
 add_executable (WORLDSPACE_GENERATOR "WorldGenerator.cpp")
 
-set(LIBRARIES_DIR ../Libraries)
-include_directories("${LIBRARIES_DIR}/World Space")
+set(LIBRARIES_DIR "../../Libraries")
+target_include_directories(WORLDSPACE_GENERATOR PUBLIC "${LIBRARIES_DIR}/World Space")
 
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "../../build/runtime")
 set (CMAKE_ARCHIVE_OUTPUT_DIRECTORY "../../build/lib")

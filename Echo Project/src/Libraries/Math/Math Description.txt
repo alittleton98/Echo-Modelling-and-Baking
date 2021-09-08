@@ -1,1 +1,1 @@
-Library for the fast fourier and purely mathematical calculations
+Library for the fast fourier and purely mathematical calculations (i.e. wave propagation, frequency and distance related decays, calculus, etc)
