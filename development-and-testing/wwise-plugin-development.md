@@ -1,2 +1,0 @@
-# Wwise Plugin Development
-
