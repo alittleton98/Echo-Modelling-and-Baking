@@ -17,7 +17,7 @@
 
 This project is designed to simulate the computational runtime costs for spatial audio effects filtering as well as machine generated impulse responses. There will be three methods of effects filter generation:
 
-1. Dynamic Runtime: All audio filtering is done dynamically at runtime to reflect immediate changes 
+1. Dynamic Object Runtime: All audio filtering is done dynamically at runtime to reflect immediate changes 
 2. Baked at Build: Late reverb filtering is baked into ALL audio played within the space
 3. Static Object Baking: Late Reverb filtering is baked into only objects marked as "static" \(not moving\) 
 
