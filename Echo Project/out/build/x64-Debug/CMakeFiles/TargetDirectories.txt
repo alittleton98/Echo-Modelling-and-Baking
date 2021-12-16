@@ -17,9 +17,9 @@ D:/Users/Mordecai/Dev/Research/Echo-Modelling-and-Baking/Echo Project/out/build/
 D:/Users/Mordecai/Dev/Research/Echo-Modelling-and-Baking/Echo Project/out/build/x64-Debug/src/Libraries/EchoReverb/CMakeFiles/rebuild_cache.dir
 D:/Users/Mordecai/Dev/Research/Echo-Modelling-and-Baking/Echo Project/out/build/x64-Debug/src/Libraries/Math/CMakeFiles/edit_cache.dir
 D:/Users/Mordecai/Dev/Research/Echo-Modelling-and-Baking/Echo Project/out/build/x64-Debug/src/Libraries/Math/CMakeFiles/rebuild_cache.dir
-D:/Users/Mordecai/Dev/Research/Echo-Modelling-and-Baking/Echo Project/out/build/x64-Debug/src/Libraries/World Space/CMakeFiles/WORLDSPACE.dir
-D:/Users/Mordecai/Dev/Research/Echo-Modelling-and-Baking/Echo Project/out/build/x64-Debug/src/Libraries/World Space/CMakeFiles/edit_cache.dir
-D:/Users/Mordecai/Dev/Research/Echo-Modelling-and-Baking/Echo Project/out/build/x64-Debug/src/Libraries/World Space/CMakeFiles/rebuild_cache.dir
+D:/Users/Mordecai/Dev/Research/Echo-Modelling-and-Baking/Echo Project/out/build/x64-Debug/src/Libraries/WorldSpace/CMakeFiles/WORLDSPACE.dir
+D:/Users/Mordecai/Dev/Research/Echo-Modelling-and-Baking/Echo Project/out/build/x64-Debug/src/Libraries/WorldSpace/CMakeFiles/edit_cache.dir
+D:/Users/Mordecai/Dev/Research/Echo-Modelling-and-Baking/Echo Project/out/build/x64-Debug/src/Libraries/WorldSpace/CMakeFiles/rebuild_cache.dir
 D:/Users/Mordecai/Dev/Research/Echo-Modelling-and-Baking/Echo Project/out/build/x64-Debug/src/Echo/AcousticsGenerator/CMakeFiles/ACOUSTICS_GENERATOR.dir
 D:/Users/Mordecai/Dev/Research/Echo-Modelling-and-Baking/Echo Project/out/build/x64-Debug/src/Echo/AcousticsGenerator/CMakeFiles/edit_cache.dir
 D:/Users/Mordecai/Dev/Research/Echo-Modelling-and-Baking/Echo Project/out/build/x64-Debug/src/Echo/AcousticsGenerator/CMakeFiles/rebuild_cache.dir

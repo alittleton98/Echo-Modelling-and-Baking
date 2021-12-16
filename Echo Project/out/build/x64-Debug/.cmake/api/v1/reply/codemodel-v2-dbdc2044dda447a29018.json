@@ -1,0 +1,504 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "src/Libraries/Acoustics",
+					"jsonFile" : "directory-src.Libraries.Acoustics-Debug-655d31af87df4b1b6ec5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "src/Libraries/Acoustics",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "src/Libraries/Audio",
+					"jsonFile" : "directory-src.Libraries.Audio-Debug-0ddae4e597efea0769da.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "src/Libraries/Audio",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "src/Libraries/Common",
+					"jsonFile" : "directory-src.Libraries.Common-Debug-58e736ab556cc4552fd0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "src/Libraries/Common"
+				},
+				{
+					"build" : "src/Libraries/EchoReflections",
+					"jsonFile" : "directory-src.Libraries.EchoReflections-Debug-b62f616e2bf007b0d6bc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 4,
+					"source" : "src/Libraries/EchoReflections",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "src/Libraries/EchoReverb",
+					"jsonFile" : "directory-src.Libraries.EchoReverb-Debug-32ccc8601c70055a11e5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 5,
+					"source" : "src/Libraries/EchoReverb",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "src/Libraries/Math",
+					"jsonFile" : "directory-src.Libraries.Math-Debug-ae90f5174127d147072e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 6,
+					"source" : "src/Libraries/Math"
+				},
+				{
+					"build" : "src/Libraries/WorldSpace",
+					"jsonFile" : "directory-src.Libraries.WorldSpace-Debug-0dff3918510704c86bb4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 7,
+					"source" : "src/Libraries/WorldSpace",
+					"targetIndexes" : 
+					[
+						10
+					]
+				},
+				{
+					"build" : "src/Echo/AcousticsGenerator",
+					"jsonFile" : "directory-src.Echo.AcousticsGenerator-Debug-6c820196744a2a3d64be.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 8,
+					"source" : "src/Echo/AcousticsGenerator",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "src/Echo/AudioObjectIO",
+					"jsonFile" : "directory-src.Echo.AudioObjectIO-Debug-d16882dc94294d9bb4d4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 9,
+					"source" : "src/Echo/AudioObjectIO",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "src/Echo/ReflectionsProcessor",
+					"jsonFile" : "directory-src.Echo.ReflectionsProcessor-Debug-e72e57d2575514117900.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 10,
+					"source" : "src/Echo/ReflectionsProcessor",
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"build" : "src/Echo/ReverbBaker",
+					"jsonFile" : "directory-src.Echo.ReverbBaker-Debug-11294722b55b86229521.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 11,
+					"source" : "src/Echo/ReverbBaker",
+					"targetIndexes" : 
+					[
+						8
+					]
+				},
+				{
+					"build" : "src/Echo/Simulator",
+					"jsonFile" : "directory-src.Echo.Simulator-Debug-b0067c74c1e6aeb5f541.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 12,
+					"source" : "src/Echo/Simulator",
+					"targetIndexes" : 
+					[
+						9
+					]
+				},
+				{
+					"build" : "src/Echo/WorldGenerator",
+					"jsonFile" : "directory-src.Echo.WorldGenerator-Debug-d075e8b55e08859e2203.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 13,
+					"source" : "src/Echo/WorldGenerator",
+					"targetIndexes" : 
+					[
+						11
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Echo Project",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "Acoustics",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "EchoAudioModule",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "Common",
+					"parentIndex" : 0
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "EchoReflections",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "EchoReverb",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "Math",
+					"parentIndex" : 0
+				},
+				{
+					"directoryIndexes" : 
+					[
+						7
+					],
+					"name" : "WorldSpace",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						10
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						8
+					],
+					"name" : "Acoustics Generator",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						9
+					],
+					"name" : "Audio Object Input/Output",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						10
+					],
+					"name" : "Reflections Processor",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						11
+					],
+					"name" : "Acoustics Generator",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						8
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						12
+					],
+					"name" : "Simulator",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						9
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						13
+					],
+					"name" : "World Generator",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						11
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "ACOUSTICS::@ed8b03a1b422cf30ee61",
+					"jsonFile" : "target-ACOUSTICS-Debug-f995fe18cc2988d29706.json",
+					"name" : "ACOUSTICS",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "ACOUSTICS_GENERATOR::@d05ca7b6a46619aacf42",
+					"jsonFile" : "target-ACOUSTICS_GENERATOR-Debug-07fe857dcab22108de89.json",
+					"name" : "ACOUSTICS_GENERATOR",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "AUDIO_OBJECT_IO::@c478e55e946ef16e859e",
+					"jsonFile" : "target-AUDIO_OBJECT_IO-Debug-2fd9e9779110085f0993.json",
+					"name" : "AUDIO_OBJECT_IO",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ECHO_AUDIO_MODULE::@a17b889c2eb89dc9f7fa",
+					"jsonFile" : "target-ECHO_AUDIO_MODULE-Debug-48ff44d1696d4de7b061.json",
+					"name" : "ECHO_AUDIO_MODULE",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ECHO_PROJECT::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ECHO_PROJECT-Debug-592ca5024ccce1fbfbe6.json",
+					"name" : "ECHO_PROJECT",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "ECHO_REFLECTIONS::@47db6376c7babe4271d2",
+					"jsonFile" : "target-ECHO_REFLECTIONS-Debug-7d54cdad01d1ed82c33c.json",
+					"name" : "ECHO_REFLECTIONS",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "ECHO_REVERB::@ad869fb3e035536e0788",
+					"jsonFile" : "target-ECHO_REVERB-Debug-6774d256bba736b7b5a5.json",
+					"name" : "ECHO_REVERB",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "REFLECTIONS_PROCESSOR::@c22a4db44a43476d953e",
+					"jsonFile" : "target-REFLECTIONS_PROCESSOR-Debug-3cc2a1d7acb32c66c320.json",
+					"name" : "REFLECTIONS_PROCESSOR",
+					"projectIndex" : 10
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "REVERB_BAKER::@9ecc89e2f42976138cda",
+					"jsonFile" : "target-REVERB_BAKER-Debug-a27e563a9ad3b1fc33a1.json",
+					"name" : "REVERB_BAKER",
+					"projectIndex" : 11
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "SIMULATOR::@dcb3092e9fe1becd78aa",
+					"jsonFile" : "target-SIMULATOR-Debug-046a81189ab7105aaf17.json",
+					"name" : "SIMULATOR",
+					"projectIndex" : 12
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "WORLDSPACE::@cd327a7031971dd52773",
+					"jsonFile" : "target-WORLDSPACE-Debug-9794b4bcf50c8a16125e.json",
+					"name" : "WORLDSPACE",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "WORLDSPACE_GENERATOR::@320214588b54ca05bf48",
+					"jsonFile" : "target-WORLDSPACE_GENERATOR-Debug-2e47f32425f880638645.json",
+					"name" : "WORLDSPACE_GENERATOR",
+					"projectIndex" : 13
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/Users/Mordecai/Dev/Research/Echo-Modelling-and-Baking/Echo Project/out/build/x64-Debug",
+		"source" : "D:/Users/Mordecai/Dev/Research/Echo-Modelling-and-Baking/Echo Project"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

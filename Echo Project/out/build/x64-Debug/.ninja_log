@@ -1,25 +1,26 @@
 # ninja log v5
-15	768	6526678704897100	src/Echo/ReflectionsProcessor/CMakeFiles/REFLECTIONS_PROCESSOR.dir/ReflectionsProcessor.cpp.obj	e32e08e9be13b5de
-12	466	6526268419114257	src/Libraries/EchoReflections/CMakeFiles/ECHO_REFLECTIONS.dir/Reflections.cpp.obj	c6b85ada500fd757
-19	767	6526678704897100	src/Echo/Simulator/CMakeFiles/SIMULATOR.dir/Simulator.cpp.obj	ac1dda43963248e5
-15	471	6526268419144272	src/Libraries/EchoReverb/CMakeFiles/ECHO_REVERB.dir/Reverb.cpp.obj	dc12b0e259d71cd1
-5	767	6526678704897100	src/Echo/AcousticsGenerator/CMakeFiles/ACOUSTICS_GENERATOR.dir/AcousticsGenerator.cpp.obj	a8990b6b256876a4
-9	768	6526678704887181	src/Echo/AudioObjectIO/CMakeFiles/AUDIO_OBJECT_IO.dir/AudioObjectIO.cpp.obj	7a16ba79d997341
-3	261	6526698678798316	src/Echo/WorldGenerator/CMakeFiles/WORLDSPACE_GENERATOR.dir/WorldGenerator.cpp.obj	a26bbc1f97de3d0d
-1	164	6526698677828184	src/Libraries/World Space/CMakeFiles/WORLDSPACE.dir/World.cpp.obj	56e5a66ad6e826a0
-2	1197	6526268420264272	src/Libraries/Acoustics/CMakeFiles/ACOUSTICS.dir/Acoustics.cpp.obj	c1c61f6c87964a4
-9	1224	6526681236653735	src/Echo/Simulator/build/runtime/SIMULATOR.exe	f977f426187e596d
-12	768	6526678704897100	src/Echo/ReverbBaker/CMakeFiles/REVERB_BAKER.dir/ReverbBaker.cpp.obj	8cd1f9e2ddd4e867
-6	1202	6526268420264272	src/Libraries/Audio/CMakeFiles/ECHO_AUDIO_MODULE.dir/EchoAudioModule.cpp.obj	4017715ea025b46e
-9	1208	6526268420634255	CMakeFiles/ECHO_PROJECT.dir/Echo_Project.cpp.obj	740c36f71c4a84e3
-471	1214	6526268419584269	src/Libraries/EchoReverb/build/lib/ECHO_REVERB.lib	8a94459ffd55de8a
-466	1244	6526268420254269	src/Libraries/EchoReflections/build/lib/ECHO_REFLECTIONS.lib	1b9dc2bc619008b6
-1197	1390	6526268426873808	src/Libraries/Acoustics/build/lib/ACOUSTICS.lib	d0478d5eb33a18d1
-164	255	6526698678048282	src/Libraries/World Space/build/lib/WORLDSPACE.lib	ae034a30adde1681
-1202	1413	6526268426893795	src/Libraries/Audio/build/lib/ECHO_AUDIO_MODULE.lib	2791f3521f8c92b5
-1208	2223	6526268433330534	ECHO_PROJECT.exe	20262f1c19c2a1b6
-6	1223	6526681235893568	src/Echo/AcousticsGenerator/build/runtime/ACOUSTICS_GENERATOR.exe	75c62bea3a936ef1
-8	1224	6526681235213960	src/Echo/ReflectionsProcessor/build/runtime/REFLECTIONS_PROCESSOR.exe	9f96e2a46464672c
-7	1224	6526681235893568	src/Echo/ReverbBaker/build/runtime/REVERB_BAKER.exe	414bfc7ef71b658f
-4	1223	6526681236693572	src/Echo/AudioObjectIO/build/runtime/AUDIO_OBJECT_IO.exe	80c21e10836a4297
-261	765	6526698680142969	src/Echo/WorldGenerator/build/runtime/WORLDSPACE_GENERATOR.exe	7f9c98cd4a048f27
+32	1086	6550694172213491	src/Echo/ReflectionsProcessor/CMakeFiles/REFLECTIONS_PROCESSOR.dir/ReflectionsProcessor.cpp.obj	5b23091381aa237
+12	769	6550694169097731	src/Libraries/EchoReflections/CMakeFiles/ECHO_REFLECTIONS.dir/Reflections.cpp.obj	4bb1144a70c4674e
+35	1091	6550694172213491	src/Echo/Simulator/CMakeFiles/SIMULATOR.dir/Simulator.cpp.obj	28450970090f6cce
+15	774	6550694169087735	src/Libraries/EchoReverb/CMakeFiles/ECHO_REVERB.dir/Reverb.cpp.obj	f195c46cbf7ebe43
+1	1159	6613287769473784	src/Echo/AcousticsGenerator/CMakeFiles/ACOUSTICS_GENERATOR.dir/AcousticsGenerator.cpp.obj	2844c424db297428
+25	1082	6550694172213491	src/Echo/AudioObjectIO/CMakeFiles/AUDIO_OBJECT_IO.dir/AudioObjectIO.cpp.obj	2163115eb0962456
+10	711	6575271324859152	src/Echo/WorldGenerator/CMakeFiles/WORLDSPACE_GENERATOR.dir/WorldGenerator.cpp.obj	e8487c0a78034bb7
+6	267	6575271823427810	src/Libraries/World Space/CMakeFiles/WORLDSPACE.dir/World.cpp.obj	c7c4d9259e736e72
+2	757	6550694168937729	src/Libraries/Acoustics/CMakeFiles/ACOUSTICS.dir/Acoustics.cpp.obj	8f8b3d2028716f20
+1092	2657	6550694183957919	src/Echo/Simulator/build/runtime/SIMULATOR.exe	f977f426187e596d
+29	997	6550694171363501	src/Echo/ReverbBaker/CMakeFiles/REVERB_BAKER.dir/ReverbBaker.cpp.obj	9e26cdd182c3efbc
+9	780	6550694169202894	src/Libraries/Audio/CMakeFiles/ECHO_AUDIO_MODULE.dir/EchoAudioModule.cpp.obj	cdd49ec9a6473398
+1	257	6575272465185058	CMakeFiles/ECHO_PROJECT.dir/src/Libraries/Common/TestingGround.cpp.obj	a1677c058b8048b4
+3	234	6575272464965013	CMakeFiles/ECHO_PROJECT.dir/Echo_Project.cpp.obj	18a0df6c12f95a9a
+774	928	6550694170043195	src/Libraries/EchoReverb/build/lib/ECHO_REVERB.lib	8a94459ffd55de8a
+769	928	6550694170043195	src/Libraries/EchoReflections/build/lib/ECHO_REFLECTIONS.lib	1b9dc2bc619008b6
+757	907	6550694170043195	src/Libraries/Acoustics/build/lib/ACOUSTICS.lib	d0478d5eb33a18d1
+267	318	6575271823647803	src/Libraries/World Space/build/lib/WORLDSPACE.lib	ae034a30adde1681
+780	927	6550694170043195	src/Libraries/Audio/build/lib/ECHO_AUDIO_MODULE.lib	2791f3521f8c92b5
+257	1429	6575272473845304	ECHO_PROJECT.exe	b181fc793a6f1e19
+1185	3253	6613287779851713	src/Echo/AcousticsGenerator/build/runtime/ACOUSTICS_GENERATOR.exe	4aaf909a7e4bc342
+1087	2569	6550694182815947	src/Echo/ReflectionsProcessor/build/runtime/REFLECTIONS_PROCESSOR.exe	9f96e2a46464672c
+997	2680	6550694183967913	src/Echo/ReverbBaker/build/runtime/REVERB_BAKER.exe	414bfc7ef71b658f
+1082	2843	6550694185653496	src/Echo/AudioObjectIO/build/runtime/AUDIO_OBJECT_IO.exe	80c21e10836a4297
+711	1762	6575271331429159	src/Echo/WorldGenerator/build/runtime/WORLDSPACE_GENERATOR.exe	7f9c98cd4a048f27

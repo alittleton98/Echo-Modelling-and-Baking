@@ -2,13 +2,14 @@
   "ExpandedNodes": [
     "",
     "\\build",
-    "\\build\\runtime",
     "\\src",
-    "\\src\\Echo\\AcousticsGenerator",
-    "\\src\\Echo\\WorldGenerator",
+    "\\src\\Echo",
     "\\src\\Libraries",
-    "\\src\\Libraries\\Acoustics"
+    "\\src\\Libraries\\Acoustics",
+    "\\src\\Libraries\\Common",
+    "\\src\\Libraries\\EchoReverb",
+    "\\src\\Libraries\\WorldSpace"
   ],
-  "SelectedNode": "\\src\\Libraries\\Acoustics\\AcousticModel.h",
+  "SelectedNode": "\\src\\Libraries\\Common\\Common.h",
   "PreviewInSolutionExplorer": false
 }
