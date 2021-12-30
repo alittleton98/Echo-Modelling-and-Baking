@@ -17,7 +17,7 @@ public:
 	bool bIsNodeOrigin;
 	CNode* m_Parent;
 	CNode* m_Children[3];
-	int m_NodeID[8];
+	short m_NodeID[8];
 
 	// Constructors
 	CNode();

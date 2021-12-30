@@ -1,7 +1,7 @@
 #include "World.h"
 #include "Room.h"
 
-/* CONSTRUCTORS AND DESTRUCTORS FOR WORLD AND WORLD OBJECT */
+/* CONSTRUCTORS AND DESTRUCTORS FOR WORLD, WORLD OBJECTS, AND ROOM */
 
 //Construct world with default values
 CWorldSpace::CWorldSpace() {
@@ -117,7 +117,8 @@ CNode::CNode() {
 	int defaultNodeID[8] = { 0,0,0,0,0,0,0,0 };
 
 	bIsNodeOrigin = false;
-	memcpy(m_NodeID, defaultNodeID, 8 * sizeof(int));
+	memcpy(m_NodeID, defaultNodeID, 8 * sizeof(short));
+
 }
 
 // TODO: Create node ID pattern from transform
@@ -125,46 +126,55 @@ CNode::CNode() {
 CNode::CNode(s_Transform pNodeTransform, bool bIsNodeOrigin) {
 	m_Transform = pNodeTransform;
 	bIsNodeOrigin = bIsNodeOrigin;
-	int defaultNodeID[4] = { 0,0,0,0 };
-	memcpy(m_NodeID, defaultNodeID, 4 * sizeof(int));
+	int defaultNodeID[8] = { 0,0,0,0,0,0,0,0 };
+	memcpy(m_NodeID, defaultNodeID, 8 * sizeof(short));
 }
 
 // Create node with transform and default values
 CNode::CNode(s_Transform pNodeTransform) {
-	int defaultNodeID[4] = { 0,0,0,0 };
+	int defaultNodeID[8] = { 0,0,0,0,0,0,0,0 };
 
 	m_Transform = pNodeTransform;
 	bIsNodeOrigin = false;
 	
-	memcpy(m_NodeID, defaultNodeID, 4 * sizeof(int));
+	memcpy(m_NodeID, defaultNodeID, 8 * sizeof(short));
 }
 
 // Create node with explict world location and identity as node origin
 CNode::CNode(float pX, float pY, float pZ, bool pIsNodeOrigin) {
-	int defaultNodeID[4] = { 0,0,0,0 };
+	int defaultNodeID[8] = { 0,0,0,0 };
 
 	m_Transform.ObjectLocation.VectorX = pX;
 	m_Transform.ObjectLocation.VectorY = pY;
 	m_Transform.ObjectLocation.VectorZ = pZ;
 	bIsNodeOrigin = pIsNodeOrigin;
 	
-	memcpy(m_NodeID, defaultNodeID, 4 * sizeof(int));
+	memcpy(m_NodeID, defaultNodeID, 8 * sizeof(short));
 }
 
 // Create node with explict world location and default values
 CNode::CNode(float pX, float pY, float pZ) {
-	int defaultNodeID[4] = { 0,0,0,0 };
+	int defaultNodeID[8] = { 0,0,0,0,0,0,0,0 };
 
 	m_Transform.ObjectLocation.VectorX = pX;
 	m_Transform.ObjectLocation.VectorY = pY;
 	m_Transform.ObjectLocation.VectorZ = pZ;
 	bIsNodeOrigin = false;
 
-	memcpy(m_NodeID, defaultNodeID, 4 * sizeof(int));
+	memcpy(m_NodeID, defaultNodeID, 8 * sizeof(short));
 }
+
+
+/* OPERATIONS FOR WORLD, WORLD OBJECTS, AND ROOM  */
+
+void CWorldSpace::AddObjectToWorld(CWorldObject* pWorldObject) {
+	m_WorldObjectList.push_back(pWorldObject);
+}
+
 
 // Creates an empty room object
 void CWorldSpace::CreateRoom() {
 	CRoom* RoomToBeAdded = new CRoom();
 	m_ListOfRooms.push_back(RoomToBeAdded);
 }
+

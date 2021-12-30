@@ -1,0 +1,1 @@
+The profiler is designed to check for resource usage and other custom statistics based on which executable is launched.
