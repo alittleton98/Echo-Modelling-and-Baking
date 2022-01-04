@@ -30,3 +30,11 @@
 *.exe
 *.out
 *.app
+*.pdb
+*.db
+*.pdb
+*.sqlite
+*.ilk
+
+# boost directory
+Echo Project/src/Libraries/Common/boost/

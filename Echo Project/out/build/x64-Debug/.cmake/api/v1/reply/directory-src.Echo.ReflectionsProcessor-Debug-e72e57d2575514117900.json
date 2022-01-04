@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "src/Echo/ReflectionsProcessor",
+		"source" : "src/Echo/ReflectionsProcessor"
+	}
+}

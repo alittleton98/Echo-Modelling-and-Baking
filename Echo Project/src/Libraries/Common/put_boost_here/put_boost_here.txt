@@ -1,0 +1,8 @@
+boost directory not included in repository. 
+
+- Download boost (https://www.boost.org/users/history/version_1_67_0.html current version as of 1/3/2022)
+- unpack zip file
+- copy and paste \boost_1_77_0\boost folder to the "Common" directory
+OR 
+- paste the contents of the folder inside the directory this file sits in and rename it "boost"
+- Should not have compiler errors, but refer to build error list/report issue on github if there are problems

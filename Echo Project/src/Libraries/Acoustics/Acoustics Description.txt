@@ -1,1 +1,1 @@
-Library for generating the acoustic parameters of a given world. It applies AcousticTextures and assigns the parameters for the ReverbBaker to use.
+Library for generating the acoustic parameters of a given world. It applies Textures and assigns the parameters for the ReverbBaker to use.
