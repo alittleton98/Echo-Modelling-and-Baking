@@ -2,6 +2,7 @@
 #include "WorldObject.h"
 #include "Common.h"
 #include "Room.h"
+
 //#include <vector>
 
 //Class for world space geometric representation
@@ -34,5 +35,6 @@ public:
 	static s_EuWorldRotation SetEulerRotation(float pX, float pY, float pZ);
 
 	void CreateRoom();
+	
 	
 };

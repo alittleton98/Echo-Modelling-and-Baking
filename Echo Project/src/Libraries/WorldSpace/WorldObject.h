@@ -43,4 +43,8 @@ public:
 	CWorldObject(std::string pName);
 	CWorldObject(s_WorldLocation pWorldLocation, std::string pName);
 	~CWorldObject();
+
+	s_Transform GetTransform();
+	std::string GetName();
+
 };

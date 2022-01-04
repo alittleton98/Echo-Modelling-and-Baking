@@ -8,6 +8,6 @@ project ("WorldSpace")
 # Add source to this project's executable.
 add_library(WORLDSPACE STATIC "World.cpp" "World.h" "WorldSpaceHeader.h" "WorldObject.h" "Room.h"  )
 
-target_include_directories(WORLDSPACE PUBLIC ../Common ../Acoustics) 
+target_include_directories(WORLDSPACE PUBLIC ../Common ../Common/boost ../Acoustics) 
 
 # TODO: Add tests and install targets if needed.

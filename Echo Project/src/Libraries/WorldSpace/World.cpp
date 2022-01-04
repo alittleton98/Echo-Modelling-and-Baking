@@ -18,7 +18,7 @@ CWorldSpace::CWorldSpace(float pXDimension, float pYDimension, float pZDimension
 // TODO: Write this based on proposed serialization
 // Generate world space from a file
 CWorldSpace::CWorldSpace(FILE pWorldFile) {
-
+	m_WorldFile = pWorldFile;
 }
 
 // Destroy world (safely)
@@ -69,6 +69,13 @@ CWorldObject::CWorldObject(s_WorldLocation pObjectLocation, std::string pName) {
 // destroy world object
 CWorldObject::~CWorldObject() {
 	delete this;
+}
+
+s_Transform CWorldObject::GetTransform() {
+	return m_Transform;
+}
+std::string CWorldObject::GetName() {
+	return m_name;
 }
 
 // construct empty room object
@@ -148,7 +155,7 @@ CNode::CNode(float pX, float pY, float pZ, bool pIsNodeOrigin) {
 	m_Transform.ObjectLocation.VectorY = pY;
 	m_Transform.ObjectLocation.VectorZ = pZ;
 	bIsNodeOrigin = pIsNodeOrigin;
-	
+
 	memcpy(m_NodeID, defaultNodeID, 8 * sizeof(short));
 }
 
@@ -176,5 +183,33 @@ void CWorldSpace::AddObjectToWorld(CWorldObject* pWorldObject) {
 void CWorldSpace::CreateRoom() {
 	CRoom* RoomToBeAdded = new CRoom();
 	m_ListOfRooms.push_back(RoomToBeAdded);
+}
+
+void CRoom::AddWall(CNode pNodesForWall[]) {
+	s_Wall newWall;
+	int i;
+
+	// add nodes
+	for (i = 0; i < 4; i++) {
+		newWall.PerimeterNodes[i] = &pNodesForWall[i];
+	}
+	
+	// add edges and link them to each node
+	for (i = 0; i < 4; i++) {
+
+	}
+
+	// Wall location is the upper left corner == the first node's location
+	// 
+	// TODO: Fix inheritance issue between CNode and CWorldObject
+
+	// Wall type is assumed to be solid
+	newWall.WallType = SOLID;
+}
+void CRoom::RemoveWall(s_Wall* pWallToBeRemoved) {
+
+}
+bool CRoom::CheckIfRoomValid() {
+
 }
 

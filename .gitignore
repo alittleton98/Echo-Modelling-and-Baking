@@ -35,3 +35,6 @@
 *.pdb
 *.sqlite
 *.ilk
+
+# boost directory
+Echo Project/src/Libraries/Common/boost/

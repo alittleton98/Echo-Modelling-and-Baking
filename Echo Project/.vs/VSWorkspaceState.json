@@ -1,14 +1,15 @@
 {
   "ExpandedNodes": [
     "",
-    "\\build",
     "\\src",
     "\\src\\Echo",
     "\\src\\Libraries",
-    "\\src\\Libraries\\Acoustics",
     "\\src\\Libraries\\Common",
+    "\\src\\Libraries\\Common\\boost",
+    "\\src\\Libraries\\Common\\boost\\archive",
     "\\src\\Libraries\\EchoReverb",
     "\\src\\Libraries\\WorldSpace"
   ],
+  "SelectedNode": "\\src\\Libraries\\WorldSpace\\World.cpp",
   "PreviewInSolutionExplorer": false
 }

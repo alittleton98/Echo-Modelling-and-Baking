@@ -18,6 +18,7 @@ public:
 	CNode* m_Parent;
 	CNode* m_Children[3];
 	short m_NodeID[8];
+	
 
 	// Constructors
 	CNode();

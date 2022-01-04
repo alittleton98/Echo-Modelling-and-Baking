@@ -432,7 +432,7 @@ build cmake_object_order_depends_target_WORLDSPACE: phony || src\Libraries\World
 
 build src\Libraries\WorldSpace\CMakeFiles\WORLDSPACE.dir\World.cpp.obj: CXX_COMPILER__WORLDSPACE_Debug D$:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Echo$ Project\src\Libraries\WorldSpace\World.cpp || cmake_object_order_depends_target_WORLDSPACE
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
-  INCLUDES = -I"D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Echo Project\src\Libraries\Common" -I"D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Echo Project\src\Libraries\WorldSpace\..\Common" -I"D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Echo Project\src\Libraries\WorldSpace\..\Acoustics"
+  INCLUDES = -I"D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Echo Project\src\Libraries\Common" -I"D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Echo Project\src\Libraries\WorldSpace\..\Common" -I"D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Echo Project\src\Libraries\WorldSpace\..\Common\boost" -I"D:\Users\Mordecai\Dev\Research\Echo-Modelling-and-Baking\Echo Project\src\Libraries\WorldSpace\..\Acoustics"
   OBJECT_DIR = src\Libraries\WorldSpace\CMakeFiles\WORLDSPACE.dir
   OBJECT_FILE_DIR = src\Libraries\WorldSpace\CMakeFiles\WORLDSPACE.dir
   TARGET_COMPILE_PDB = src\Libraries\WorldSpace\CMakeFiles\WORLDSPACE.dir\WORLDSPACE.pdb
