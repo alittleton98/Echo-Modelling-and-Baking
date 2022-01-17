@@ -3,9 +3,14 @@
 #include "Common.h"
 #include "Room.h"
 
-//#include <vector>
-
 //Class for world space geometric representation
+
+namespace EchoProject {
+	namespace WorldLib {
+		// TODO: Add to namespace
+	}
+}
+
 class CWorldSpace {
 
 	//Member Variables

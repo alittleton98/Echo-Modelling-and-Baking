@@ -1,1 +1,10 @@
 Library for generating 3 Dimensional rooms in the world space. Also produces cube of a geometrically accessible 3D space.
+This library is for generation only and should perform actual operations
+
+Worlds are generated from a csv file and not done within the space.
+Each line of the csv should be written in the following format
+"-"
+"<RoomName>"> \n
+<VectorX>,<VectorY>,<VectorZ> \n // Anchor for the room is also the bottom right corner of the first wall
+// The nodes will continue as above until all nodes are accounted for
+// Should additional rooms need to be added, repeat from the "-". The hyphen character is indicative of a new room

@@ -3,6 +3,14 @@
 
 /* CONSTRUCTORS AND DESTRUCTORS FOR WORLD, WORLD OBJECTS, AND ROOM */
 
+//TODO: Rework the constructors so that the file import is correct
+
+namespace EchoProject {
+	namespace WorldLib {
+		// TODO: Add to namespace
+	}
+}
+
 //Construct world with default values
 CWorldSpace::CWorldSpace() {
 	//Default dimensions yield an average sized space similar to a small square living room
@@ -117,6 +125,7 @@ CEdge::CEdge(CNode* pNodeA, CNode* pNodeB) {
 	CWorldObject("");
 	m_AttachedNodes[0] = pNodeA;
 	m_AttachedNodes[1] = pNodeB;
+	
 }
 
 // Create node with default ID
@@ -125,7 +134,7 @@ CNode::CNode() {
 
 	bIsNodeOrigin = false;
 	memcpy(m_NodeID, defaultNodeID, 8 * sizeof(short));
-
+	
 }
 
 // TODO: Create node ID pattern from transform
@@ -195,21 +204,29 @@ void CRoom::AddWall(CNode pNodesForWall[]) {
 	}
 	
 	// add edges and link them to each node
-	for (i = 0; i < 4; i++) {
-
+	for (i = 1; i < 4; i++) {
+		CEdge* newEdge = new CEdge(&pNodesForWall[i-1], &pNodesForWall[i]);
+		newWall.PerimeterEdges[i-1] = newEdge;
 	}
 
 	// Wall location is the upper left corner == the first node's location
-	// 
-	// TODO: Fix inheritance issue between CNode and CWorldObject
+	newWall.WallTransform = newWall.PerimeterNodes[0]->GetTransform();
 
 	// Wall type is assumed to be solid
 	newWall.WallType = SOLID;
 }
-void CRoom::RemoveWall(s_Wall* pWallToBeRemoved) {
-
+void CRoom::RemoveWall(int pIndexOfWallToBeRemoved) {
+	m_WallList.erase(m_WallList.begin() + pIndexOfWallToBeRemoved);
 }
-bool CRoom::CheckIfRoomValid() {
 
+bool CRoom::CheckIfRoomValid() {
+	bool bValidityCheck = false;
+
+	// check if there are more than 6 walls
+	if (m_WallList.size() >= 6) {
+
+		// Check if the transforms for Walls n and n-1 are the same 
+		// sans Z axis. The height of the ceiling should be the the floor
+	}
 }
 

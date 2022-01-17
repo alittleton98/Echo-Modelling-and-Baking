@@ -11,7 +11,13 @@
 // Each Floor of the room must have a corresponding Ceiling
 
 // Node class. Represents a discrete point in world space
-class CNode : CWorldObject {
+
+namespace EchoProject {
+	namespace WorldLib {
+		// TODO: Add to namespace
+	}
+}
+class CNode : public CWorldObject {
 public:
 	// Node Members
 	bool bIsNodeOrigin;
@@ -34,10 +40,11 @@ public:
 };
 
 // Edge class. Edges are meaningful connections bettween nodes
-class CEdge : CWorldObject {
+class CEdge : public CWorldObject {
 
 public:
 	CNode* m_AttachedNodes[2];
+	float m_length;
 
 	CEdge(CNode* pNodeA, CNode* pNodeB);
 };
@@ -69,6 +76,9 @@ public:
 
 	// Room feature creation and deletions
 	void AddWall(CNode pNodesForWall[]);
-	void RemoveWall(s_Wall* pWallToBeRemoved);
+	void RemoveWall(int pIndexOfWallToBeRemoved);
 	bool CheckIfRoomValid(); // Determines if Room reaches validity requirments described
+	void RotateWallAboutEulerX(float pNewEulerXValue);
+	void RotateWallAboutEulerY(float pNewEulerYValue);
+	void RotateWallAboutEulerZ(float pNewEulerZValue);
 };

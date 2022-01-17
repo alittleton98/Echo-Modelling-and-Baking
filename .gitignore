@@ -38,3 +38,5 @@
 
 # boost directory
 Echo Project/src/Libraries/Common/boost/
+Echo Project/.vs/Echo Project/v17/Browse.VC.db
+*.db
